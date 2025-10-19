@@ -1,0 +1,31 @@
+# Virtual environment
+text_classification_env/
+
+# Data files
+data/raw/consumer_complaints.csv
+data/processed/complaints_cleaned_ready.csv
+data/processed/complaints_*.csv
+
+# Model files (large binary files)
+models/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
